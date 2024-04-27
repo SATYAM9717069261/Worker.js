@@ -1,7 +1,7 @@
 import parallerWorker from "../libs/worker.js"
 import { Button } from "component/buttons"
 import myWorker from "./../libs/work.js"
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"
 type work = {
     name:string;
     id: number;
