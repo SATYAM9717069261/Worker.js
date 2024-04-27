@@ -1,0 +1,13 @@
+.mainContainer{ margin:12px; }
+.header{ justify-content: center; gap: 12px; padding: 12px; }
+.body{ justify-content: space-between; margin-top:50px }
+.queue{ height: 75vh; overflow: auto; padding: 12px; }
+.queue>label{ margin: 2px; padding: 10px; }
+.description{ height: 30vh; overflow: hidden;padding: 12px; }
+.workerProcess{ max-width: 300px; height: 100px; }
+.output>textarea{ height: 100%; width:100%; }
+.Popup{ z-index: 9999; position: fixed; height: 100vh !important; left: 0; right: 0; top: 0; background: rgba(0, 0, 0, .5); }
+.Popup>div{ background-color: white; padding: 27px; display: flex; flex-direction: column; justify-content: center; align-items: start; gap: 15px; }
+.Popup>div>div{gap:20px}
+.singleWork{ border:1px solid  black; min-width: 15vw; margin:12px}
+.title{    justify-content: space-between; width: 100%; }
